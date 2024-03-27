@@ -13,3 +13,6 @@ save_to_clipboard = true
 [cursor]
 style = { shape = "Underline", blinking = "Off" }
 thickness = 0.5
+
+[font.normal]
+family="IntoneMono Nerd Font"
