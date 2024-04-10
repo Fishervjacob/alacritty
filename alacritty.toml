@@ -1,7 +1,8 @@
 import = ["~/AppData/Roaming/alacritty/carbonfox-colors.toml"]
 
 [shell]
-program = "ubuntu"
+program = "C:\\cygwin64\\bin\\bash.exe"
+args = ["-li"]
 
 [window]
 opacity = 0.90
@@ -11,8 +12,7 @@ startup_mode = "Maximized"
 save_to_clipboard = true
 
 [cursor]
-style = { shape = "Underline", blinking = "Off" }
-thickness = 0.5
+style = { blinking = "On" }
 
 [font.normal]
 family="IntoneMono Nerd Font"
